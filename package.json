@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "engines": {
-    "node": ">=20.0.0"
+    "node": ">=18.0.0"
   },
   "scripts": {
     "build": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
@@ -20,5 +20,6 @@
   "bugs": {
     "url": "https://github.com/DivyaRaval1909/chatify/issues"
   },
-  "homepage": "https://github.com/DivyaRaval1909/chatify#readme"
+  "homepage": "https://github.com/DivyaRaval1909/chatify#readme",
+  "dockerFile": "FROM node:20.19.0"
 }
